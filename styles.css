@@ -191,19 +191,17 @@ img {
   display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 50px;
+grid-column-gap: 30px;
 grid-row-gap: 0px;
   }
 
-  .product-card {
-    height: 350px;
-    width: 350px;
-  }
 
-  /* .product-card img {
-    width: 100%;
-    height: auto;
-  } */
+
+   .product-card img {
+    width: 90%;
+    height: 50%;
+    border-radius: 10px;
+   } 
 
   .product-card h3 {
     color: #eb190a;

@@ -261,6 +261,7 @@ margin: auto;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   margin-left: 20px;
+  margin-bottom: 0;
 }
 
 
@@ -314,4 +315,99 @@ text-align: center;
 .team-detail h3 {
   /* font-size: 30px; */
   margin: 15px 0px;
+}
+
+footer {
+  background-color: #111;
+}
+
+.footer-container {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  text-decoration: none;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+
+}
+
+.social-icons a:hover {
+  background-color: wheat;
+  transition: 0.5s;
+  /* text-decoration-line: none; */
+}
+
+.social-icons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+} 
+
+.social-icons a:hover i {
+color: lightblue;
+transition: 0.5s;
+}
+
+.footer-nav {
+margin: 30px 0;
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: nonedisc;
+}
+
+.footer-nav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footer-nav ul li a:hover{
+  opacity: 1;
+  color: wheat;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: white;
+}
+
+.designer {
+  opacity: 0.7;
+  text-transform: capitalize;
+  color: wheat;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+  .footer-nav ul {
+    flex-direction: column;
+  }
+  .footer-nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
 }

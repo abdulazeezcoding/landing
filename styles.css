@@ -111,15 +111,21 @@ a:hover {
 .icon {
   font-family: cursive;
   color: #eb190a;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .header-text p {
   font-size: 24px;
-  color: #ffffff;
+  padding: 20px 0px;
+  color: white;
+  letter-spacing: 1px;
+  font-family: Arial;
 }
 
+.header-text h1 {
+  padding-bottom: 15px;
+}
 .about-section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -139,7 +145,13 @@ a:hover {
   padding: 12px;
   font-size: 24px;
   color: rgb(101, 27, 27);
+  margin-bottom: 20px;
 }
+
+.about-text p {
+  letter-spacing: 1.2px;
+}
+
 
 .new-item {
   display: flex;
@@ -147,6 +159,10 @@ a:hover {
   width: 100%;
   margin: auto;
   background-color: rgb(238, 8, 8);
+}
+
+.new-item img {
+  
 }
 
 .new-item-text {
@@ -240,36 +256,41 @@ justify-content: center;
   text-decoration: none;
 color: white;
 }
-
 .products {
 padding-top: 50px ;
 background-color: wheat;
 width: 100%;
 margin: auto;
+padding: 40px;
 }
 
 .products h2 {
   color: rgb(101, 27, 27);
   text-align: center;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .product-items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  margin-left: 20px;
-  margin-bottom: 0;
+  grid-column-gap: 19px;
+  grid-row-gap: 20px;
+ 
+ padding: 40px;
+ margin: auto 20px;
+}
+
+.img{
+  width: 50%;
 }
 
 
-
 .product-card img {
-  width: 90%;
-  height: 50%;
+  width: 100%;
+  height: 250px;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .product-card h3 {
@@ -353,7 +374,7 @@ footer {
 } 
 
 .social-icons a:hover i {
-color: lightblue;
+color: red;
 transition: 0.5s;
 }
 

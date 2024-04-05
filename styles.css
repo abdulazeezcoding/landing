@@ -162,7 +162,7 @@ a:hover {
 }
 
 .new-item img {
-  
+  /*  */
 }
 
 .new-item-text {
@@ -282,4 +282,3 @@ grid-row-gap: 0px;
     text-align: center;
     margin: 10px;
   }
-}
